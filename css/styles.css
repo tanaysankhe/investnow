@@ -1,0 +1,428 @@
+/* Navbar Section */
+
+.navbar .navbar-brand:hover {
+  color: #1bb8cc;
+}
+
+@media (min-width:1000px) and (max-width:1366px) {
+  .navbar-brand{
+      margin-left:180px;
+      font-size: 1.5rem;
+  }
+}
+
+@media (max-width:991px) {
+  .navbar-brand {
+    margin-left: 0.7rem;
+    font-size: 1.5rem;
+  }
+  .navbar-toggler {
+    margin-right: 0.7rem;
+  }
+}
+
+body{
+  font-family: Poppins;
+}
+
+.navbar {
+  background-color: #0d2941;
+}
+
+.navbar-nav{
+   margin: 0 auto;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+  color: #1bb8cc;
+}
+
+@media only screen
+and (min-device-width:1030px)
+and (max-device-width:1366px) {
+    .nav-item{
+        padding: 0 0.7rem;
+    }
+}
+
+.nav-download-button{
+    margin-right:180px;
+}
+
+.nav-download-button:hover {
+  color: #1bb8cc;
+  background-color: #0d2941;
+  border-color: #0d2941;
+}
+
+@media (max-width: 991px) {
+    .nav-download-button{
+        margin: 0.7rem;
+    }
+    .navbar-item {
+        margin: 10px 0.7rem 12px 0;
+    }
+    .navbar {
+        text-align: left;
+    }
+    .nav-link {
+      padding: 12px 0;
+    }
+}
+
+/* Title Section */
+
+.main-heading {
+  font-family: Poppins, san-serif; color: #0d2941; font-size: 50px; line-height: 1.5; font-weight: 900;
+  margin: 80px 0 50px 0;
+}
+
+#title{
+  background-color: #bec7f1;
+  background-size: cover;
+  padding-bottom: 5%;
+}
+
+@media (max-width:991px) {
+  #title {
+    text-align: center;
+  }
+}
+
+.container-fluid{
+  padding: 3% 13%;
+}
+
+.apple-icon{
+  margin: -7px 12px 0 0;
+}
+
+.play-icon{
+  margin: -4px 12px 0 0;
+}
+
+.title-img {
+  transform: rotate(25deg);
+  width: 20%;
+  margin: 80px 0 0 120px;
+  position: absolute;
+}
+
+@media (max-width:991px) {
+    .title-img {
+      position: static;
+      transform: rotate(0);
+      width: 40%;
+      margin: 60px auto 0 auto;
+    }
+}
+
+@media (max-width:500px) {
+  .main-heading {
+    font-size: 45px;
+  }
+}
+
+.playstore-button{
+  margin-left:15px;
+}
+
+/* Features Section */
+
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+.features-container {
+  text-align: center;
+  padding-bottom: 120px;
+}
+
+.feature-items{
+  padding:0 20px;
+}
+
+.fas{
+  margin: 100px 100px 30px 100px;
+  color: #0d2941;
+  font-size: 2.8rem;
+}
+
+.fas:hover{
+  color:#091b2b;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0d2941;
+}
+
+.feature-para{
+  font-size: 0.9rem;
+}
+
+/* Testimonials */
+
+#testimonials{
+  background-color: #bec7f1;
+  text-align: center;
+}
+
+.carousel-item{
+  padding: 7% 17%;
+}
+
+.testimony-man{
+  width: 10%;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  font-weight: 700;
+  color:#0d2941;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.cred-img{
+  width: 15%;
+  padding: 1% 15px 5% 15px;
+}
+
+@media (max-width:500px) {
+  .testimonial-text {
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+  .cred-img {
+    width: 21%;
+    margin: 20px 1px;
+  }
+}
+
+#press{
+  background-color: #bec7f1;
+  text-align: center;
+}
+
+.carousel-control-prev-icon{
+  background-color: #0d2941;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+.carousel-control-next-icon{
+  background-color: #0d2941;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+/* Pricing Table */
+
+#pricing {
+  padding: 100px 100px 50px 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.free-btn {
+  margin-top: 106.5px;
+}
+
+.pricing-h2 {
+  margin: -16px -16px 30px -16px;
+  background-color: #117581;
+  padding: 8px;
+}
+
+.pro-btn {
+  margin-top: 82.5px;
+}
+
+.pricing-h3 {
+  margin: -16px -16px -9px -16px;
+  color: #0d2941;
+  background-color: #81b1ce;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.btn-color {
+  color: #0d2941;
+  background-color: #fff;
+  border: none;
+}
+
+.card-body {
+  background-color: #0d2941;
+  color: #fff;
+}
+
+.pricing-para {
+  margin-bottom: 2.2rem;
+}
+
+.pricing-h2-heading {
+  font-size: 2.8rem;
+  color: #0d2941;
+  font-weight: 700;
+}
+
+.pricing-heading {
+  font-size: 1.3rem;
+  color: #117581;
+  text-decoration: underline;
+  text-decoration-color: #117581;
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width:500px) {
+  .pricing-row {
+    margin: 0 -90px;
+  }
+  .pricing-h2-heading {
+    font-size: 2.2rem;
+    margin: -30px -80px 10px -80px;
+  }
+  .pricing-heading {
+    font-size: 1rem;
+    margin: 10px -40px 20px -40px;
+  }
+}
+
+/* CTA Section */
+
+#cta {
+  text-align: center;
+  background-color: #bec7f1;
+  padding: 40px 100px 100px 100px;
+}
+
+.cta-heading {
+  color: #0d2941;
+  font-size: 2.8rem;
+  font-weight: 700;
+  padding: 4% 7%;
+  line-height: 1.3;
+  margin: 0 -100px;
+}
+
+.apple-btn {
+  margin-right: 5px;
+}
+
+.playstore-btn {
+  margin-left: 5px;
+}
+
+@media (max-width:500px) {
+  .cta-heading {
+    font-size: 1.9rem;
+    margin: 0 -100px 10px -100px;
+  }
+  .apple-btn {
+    margin-left: -60%;
+  }
+  .playstore-btn {
+    margin-right: -60%;
+  }
+}
+
+@media (min-width: 520px) and (max-width:991px) {
+  .cta-heading {
+    font-size: 2.6rem;
+    padding: 30px 0px;
+    margin: 0 -80px;
+  }
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: #0d2941;
+  color: #ebfafc;
+  padding: 20px 60px 0 60px;
+}
+
+.footer-container {
+  padding: 3% 13% 0;
+}
+
+.social-media {
+  font-size: 1.5rem;
+}
+
+.social-media:hover {
+  color: #1bb8cc;
+}
+
+.email {
+  margin: 0;
+  font-size: 1.5rem;
+  padding-left: 18px;
+  color: #ebfafc;
+}
+
+.email:hover {
+  color: #1bb8cc;
+}
+
+.social-media-column {
+  word-spacing: 15px;
+  text-align: right;
+}
+
+.footer-column {
+  margin-top: -10px;
+}
+
+.copyright-div {
+  padding: 20px 20px 0 20px;
+  background-color: #0d2941;
+  text-align: center;
+  color: #ebfafc;
+  margin-top: 150px;
+}
+
+.footer-brand {
+  color: #ebfafc;
+  font-size: 1.75rem;
+  text-decoration: none;
+  /* margin-left: 0; */
+}
+
+.footer-brand:hover {
+  color: #1bb8cc;
+}
+
+@media (max-width:500px) {
+  .footer-brand {
+    font-size: 1.8rem;
+  }
+  .footer-column {
+    text-align: center;
+  }
+  .social-media-column {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .social-media {
+    font-size: 1.2rem;
+    margin-top: 110px;
+  }
+  .email {
+    font-size: 1.2rem;
+  }
+  .copyright-div {
+    margin-top: -30px;
+    font-size: 0.9rem;
+  }
+}
