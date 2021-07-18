@@ -59,14 +59,14 @@ and (max-device-width:1366px) {
     .nav-download-button{
         margin: 0.7rem;
     }
-    .navbar-item {
+    .navbar-nav {
         margin: 10px 0.7rem 12px 0;
     }
     .navbar {
         text-align: left;
     }
     .nav-link {
-      padding: 12px 0.7rem 12px;
+      padding: 12px 0;
     }
 }
 
