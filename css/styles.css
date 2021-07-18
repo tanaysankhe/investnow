@@ -60,7 +60,7 @@ and (max-device-width:1366px) {
         margin: 0.7rem;
     }
     .navbar-nav {
-        margin: 10px 0.7rem 12px 0;
+        margin: 10px 0 12px 0.7rem;
     }
     .navbar {
         text-align: left;
