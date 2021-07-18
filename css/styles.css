@@ -66,7 +66,7 @@ and (max-device-width:1366px) {
         text-align: left;
     }
     .nav-link {
-      padding: 12px 0 12px 0.7rem;
+      padding: 12px 0.7rem 12px;
     }
 }
 
