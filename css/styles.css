@@ -195,7 +195,7 @@ and (max-device-width:1366px) {
 
 @media (max-width:500px) {
   .testimonial-text {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     text-align: justify;
   }
   .cred-img {
