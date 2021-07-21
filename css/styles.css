@@ -127,6 +127,15 @@ and (max-device-width:1366px) {
   margin-left:15px;
 }
 
+@media (max-width:500px) {
+  .apple-button {
+    margin-left: -60%;
+  }
+  .playstore-button {
+    margin-right: -60%;
+  }
+}
+
 /* Features Section */
 
 #features {
