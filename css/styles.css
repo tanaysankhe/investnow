@@ -120,6 +120,7 @@ and (max-device-width:1366px) {
 @media (max-width:500px) {
   .main-heading {
     font-size: 45px;
+    text-align: left;
   }
 }
 
