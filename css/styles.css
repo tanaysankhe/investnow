@@ -4,11 +4,22 @@
   color: #1bb8cc;
 }
 
-@media (min-width:1000px) and (max-width:1366px) {
+@media (min-width:1000px) {
   .navbar-brand{
-      margin-left:180px;
-      font-size: 1.5rem;
+    padding-top: 0.3125rem;
+	  margin-left: 200px;
+    font-size: 1.50rem;
+    text-decoration: none;
+    white-space: nowrap;
   }
+  
+}
+
+.btn btn-lg btn-primary w-100 business-btn btn-color{
+  width: 100%!important;
+  margin-top: 22px;
+}
+
 }
 
 @media (max-width:991px) {
